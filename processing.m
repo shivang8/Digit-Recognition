@@ -1,5 +1,5 @@
 %Processing
-function [error,w1,w2] = processing(x, inputx, weight1, weight2, bias1, bias2, targets, alpha)
+function [error,w1,w2] = processing(~, inputx, weight1, weight2, bias1, bias2, targets, alpha)
 
     % Applying Feed Forward
     

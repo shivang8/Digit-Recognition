@@ -4,13 +4,13 @@ function k = prediction(inputx, weight1, weight2, bias1, bias2, targets)
     % Hidden Layer
     neth = inputx * weight1;
     neth = neth + bias1;
-    
+    %neth = normal(neth);
     outh = sigm(neth);
     
     % Output Layer
     neto = outh * weight2;
     neto = neto + bias2;
-    
+    %neto = normal(neto);
     outo = sigm(neto);
     
     % Error Phase
