@@ -1,13 +1,15 @@
 load('mnist_all.mat')
 
 % Initilization
-weight1 = rand(784,100);
-weight2 = rand(100,10);
+weight1 = randn(784,100);
+weight2 = randn(100,10);
+weight1 = (1/10) * weight1;
+weight2 = (1/10) * weight2;
 v = [1,1,1,1,1,1,1,1,1,1];
 target = diag(v);
 clear v
-bias1 = rand(1);
-bias2 = rand(1);
+bias1 = randn(1);
+bias2 = randn(1);
 
 %size
 sz0 = size(train0);
