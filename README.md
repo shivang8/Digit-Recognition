@@ -40,6 +40,6 @@ Percentage of Accuracy of 9 = 95.8375<br/>
 
 **prediction.m :** It is used to feed forward the neural network and predict the digit.<br/><br/><br/>
  
-**IF YOU ENCOUNTER ANY BUGS OR FOR ANY SUGGESTIONS REGARDING THE IMPROVEMENT OF THE 8085 MICROPROCESSOR SIMULATOR FEEL FREE TO CONTACT ME :**
+**IF YOU ENCOUNTER ANY BUGS OR FOR ANY SUGGESTIONS REGARDING THE IMPROVEMENT OF THE DIGIT RECOGNIZER FEEL FREE TO CONTACT ME :**
 
 Shivang Srivastava	-	shivang.8@geu.ac.in<br/>
